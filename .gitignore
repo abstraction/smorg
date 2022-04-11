@@ -1,0 +1,7 @@
+node_modules/
+dist/export.xml
+dist/state.json
+playground/
+README.org
+.log
+.DS_Store
