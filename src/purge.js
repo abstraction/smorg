@@ -35,6 +35,7 @@ if (purgeCount > 0) {
   saveStateOverwrite(tempNote, path.join(__dirname, "../dist/state.json"));
 
   Promise.all([
+    // don't log to markers coz they are not unique
     fs.writeFile(path.join(__dirname, "../dist/purged-markers.txt"), markers),
     fs.writeFile(path.join(__dirname, "../dist/purged-pathmd5.txt"), pathmd5),
   ])

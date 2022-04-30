@@ -1,31 +1,31 @@
 
 # Table of Contents
 
-1.  [What does this do?](#org8a20bb7)
-2.  [Features](#org064a7d1)
-3.  [Now what?](#org27874f0)
+1.  [What does this do?](#org3cf323f)
+2.  [Features](#org104bcb8)
+3.  [Now what?](#org173c6df)
 
 
 
-<a id="org8a20bb7"></a>
+<a id="org3cf323f"></a>
 
 # What does this do?
 
-Recursively traverses a directory and create SM-friendly XML.
+Recursively traverses a directory and create SM-friendly XML
 
 
-<a id="org064a7d1"></a>
+<a id="org104bcb8"></a>
 
 # Features
 
 Idk I wrote whatever I needed urgently:
 
--   State management
--   Files blacklist
--   Directory blacklist
+-   Track imported notes
+-   Blacklist files and directories
+-   Clean and inform about deleted notes
 
 
-<a id="org27874f0"></a>
+<a id="org173c6df"></a>
 
 # Now what?
 
