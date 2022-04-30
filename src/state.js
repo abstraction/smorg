@@ -22,4 +22,15 @@ const saveState = async (data, file) => {
     });
 };
 
-export { getState, saveState };
+const saveStateOverwrite = async (data, file) => {
+  const json = JSON.stringify(data);
+  fs.writeFile(file, json)
+    .then((res) => {
+      console.log("Saved new state JSON.");
+    })
+    .catch((e) => {
+      console.log("Error saving new state JSON.", e);
+    });
+};
+
+export { getState, saveState, saveStateOverwrite };

@@ -29,10 +29,9 @@ notesKey.forEach((key) => {
 saveState(tempNote, path.join(__dirname, "../dist/state.json"));
 
 const resXML = createXml(tempNote);
-console.log(resXML);
 
 fs.writeFile(path.join(__dirname, "../dist/export.xml"), resXML)
-  .then((res) => {
+  .then(() => {
     console.log("Saved XML");
   })
   .catch((e) => {

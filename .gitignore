@@ -1,6 +1,5 @@
 node_modules/
-dist/export.xml
-dist/state.json
+dist/
 playground/
 README.org
 .log
